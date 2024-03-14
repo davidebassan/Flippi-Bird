@@ -1,4 +1,5 @@
 # FlippyBird
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f915095c-da2e-4f6b-9400-2d7555323c97/deploy-status)](https://app.netlify.com/sites/flippibird/deploys)
 
 FlippyBird is a fun game inspired by Flappy Bird, created for a wedding celebration. It's built using Expo and React Native, allowing it to run smoothly on both iOS and Android devices, as well as web browsers.
 
