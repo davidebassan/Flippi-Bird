@@ -2,7 +2,7 @@
 
 const savePlayerScore = async (score, playerType) => {
     try {
-      const response = await fetch('http://localhost:3000/scores', {
+      const response = await fetch(`${process.env.EXPO_PUBLIC_BACK_URL}/scores`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -18,7 +18,7 @@ const savePlayerScore = async (score, playerType) => {
   
   const aggregateScoresByPlayerType = async (playerType) => {
     try {
-      const response = await fetch(`http://localhost:3000/scores/${playerType}`);
+      const response = await fetch(`${process.env.EXPO_PUBLIC_BACK_URL}/scores/${playerType}`);
       const data = await response.json();
       return data.totalScore;
     } catch (error) {
