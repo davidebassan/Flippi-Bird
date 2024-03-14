@@ -7,6 +7,8 @@ node_modules/
 .expo/
 dist/
 web-build/
+ios/
+android/
 
 # Native
 *.orig.*
@@ -30,6 +32,10 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
+
+# Local Netlify folder
+.netlify
